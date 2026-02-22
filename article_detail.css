@@ -1,0 +1,54 @@
+.article-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.article-content h1 {
+  font-size: 2.5rem;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+
+.article-content .meta {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.5rem;
+}
+
+.article-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.article-body h2 {
+  font-size: 1.5rem;
+  color: #1b5e20;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article-body p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 600;
+}

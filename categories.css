@@ -1,0 +1,235 @@
+/* --- Categories Page Layout --- */
+.categories-page {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+
+.categories-page h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 800px;
+  margin: 0.5rem auto 3rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+}
+
+.section-title {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 1.8rem;
+    color: #333;
+    padding-bottom: 5px;
+}
+
+.section-title p {
+    color: #888;
+    font-size: 1rem;
+}
+
+/* --- 1. Cuisine Grid Styles (Image-based) --- */
+.cuisine-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.cuisine-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.cuisine-card:hover {
+    transform: scale(1.03);
+}
+
+.cuisine-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.cuisine-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(46, 125, 50, 0.85); /* Semi-transparent Green overlay */
+    color: white;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.cuisine-card:hover .cuisine-overlay {
+    background: rgba(27, 94, 32, 0.95); /* Darker green on hover */
+}
+
+
+/* --- 2. Meal Type Grid Styles (Larger Icon Cards) --- */
+.meal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.meal-card {
+    background: #fff;
+    padding: 2rem 1rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    border: 1px solid #eee;
+    text-decoration: none;
+    color: #333;
+}
+
+.meal-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    border-color: #2e7d32;
+}
+
+.meal-card i {
+    font-size: 36px;
+    margin-bottom: 1rem;
+    color: #2e7d32;
+    transition: color 0.3s;
+}
+
+.meal-card:hover i {
+    color: #1b5e20;
+}
+
+.meal-card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.meal-card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.search-bar-categories {
+    max-width: 700px;
+    margin: 2rem auto 3rem; 
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.search-bar-categories input {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.search-bar-categories button {
+    padding: 12px 20px;
+    border: none;
+    background: #2e7d32; /* Primary Green */
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.search-bar-categories button:hover {
+    background: #1b5e20;
+}
+
+.search-bar-categories i {
+    margin-right: 5px;
+}
+/* --- Styles for Dynamic Recipe Grid (JS Generated) --- */
+
+/* Yeh container ko grid layout deta hai */
+.dynamic-recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px 0;
+}
+
+.recipe-card-dynamic {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    text-decoration: none;
+    color: #333;
+}
+
+.recipe-card-dynamic:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+}
+
+.recipe-card-dynamic img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.recipe-info {
+    padding: 15px;
+    text-align: left;
+}
+
+.recipe-info h3 {
+    font-size: 1.3rem;
+    color: #2e7d32;
+    margin-bottom: 5px;
+}
+
+.recipe-info p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.view-btn {
+    padding: 8px 15px;
+    border: none;
+    background: #2e7d32;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+.view-btn:hover {
+    background: #1b5e20;
+}

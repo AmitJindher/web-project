@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Categories - FlavorArchive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="categories.css">
+</head>
+
+<body>
+
+  <nav>
+  <a href="index.html" class="logo">
+    <img src="https://img.icons8.com/ios-filled/50/FD7E14/restaurant.png" alt="logo">
+    <span>FlavorArchive</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="categories.html">Recipes</a>
+    <a href="my_recipes.html">My Recipes</a>
+    <a href="saved_recipes.html">Saved Recipes</a>
+    <a href="add_recipe.html">Add Recipe</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  
+  <div class="profile-dropdown">
+    <button class="profile-btn">Account</button>
+    <div class="dropdown-content">
+      <a href="profile_settings.html">Settings</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Sign Out</a>
+    </div>
+  </div>
+</nav>
+
+  <section class="categories-page">
+    <h1>Discover Your Next Favorite Meal</h1>
+    <p class="subtitle">Explore thousands of recipes organized by global cuisines and meal type.</p>
+    
+    <div class="search-bar-categories">
+        <input type="text" placeholder="Search specific recipes, ingredients, or keywords...">
+        <button><i class="fas fa-search"></i> Search</button>
+    </div>
+
+    <div class="section-title">
+        <h2>🌐 Browse by Cuisine</h2>
+        <p>Find authentic dishes from around the world.</p>
+    </div>
+    <div class="cuisine-grid">
+        <div class="cuisine-card">
+            <img src="italian.webp" alt="Italian Cuisine">
+            <div class="cuisine-overlay">Italian</div>
+        </div>
+        <div class="cuisine-card">
+            <img src="indain.webp" alt="Indian Cuisine">
+            <div class="cuisine-overlay">Indian</div>
+        </div>
+        <div class="cuisine-card">
+            <img src="mexican.webp" alt="Mexican Cuisine">
+            <div class="cuisine-overlay">Mexican</div>
+        </div>
+        <div class="cuisine-card">
+            <img src="asian.webp" alt="Asian Cuisine">
+            <div class="cuisine-overlay">Asian</div>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <h2>🍽️ Recipes by Meal Type</h2>
+        <p>Quickly jump to breakfast, lunch, dinner, or dessert ideas.</p>
+    </div>
+    <div class="meal-grid">
+        <a href="#" class="meal-card">
+            <i class="fas fa-egg"></i>
+            <h3>Breakfast</h3>
+            <p>Start your day with energy.</p>
+        </a>
+        <a href="#" class="meal-card">
+            <i class="fas fa-utensils"></i>
+            <h3>Lunch</h3>
+            <p>Light and satisfying midday meals.</p>
+        </a>
+        <a href="#" class="meal-card">
+            <i class="fas fa-drumstick-bite"></i>
+            <h3>Dinner</h3>
+            <p>Hearty meals for the whole family.</p>
+        </a>
+        <a href="#" class="meal-card">
+            <i class="fas fa-ice-cream"></i>
+            <h3>Desserts</h3>
+            <p>Sweet treats for special occasions.</p>
+        </a>
+        <a href="#" class="meal-card">
+            <i class="fas fa-leaf"></i>
+            <h3>Vegan</h3>
+            <p>Plant-based and delicious options.</p>
+        </a>
+        <a href="#" class="meal-card">
+            <i class="fas fa-cocktail"></i>
+            <h3>Drinks</h3>
+            <p>Refreshing beverages and shakes.</p>
+        </a>
+    </div>
+    
+    <div class="section-title" style="margin-top: 4rem;">
+        <h2>🍽️ All Recipes from Database</h2>
+        <p>Explore full list of recipes loaded from the MongoDB Mockup.</p>
+    </div>
+
+    <div id="recipeListContainer" class="dynamic-recipe-grid">
+    <p style="text-align:center; padding: 50px; color:#888;">Loading recipes from database...</p>
+</div>
+
+  </section>
+
+  <script src="script.js"></script> 
+</body>
+</html>

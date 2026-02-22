@@ -1,0 +1,20 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spicy Shrimp Tacos",
+      "time": "30 Min",
+      "rating": 4.9,
+      "category": "Dinner",
+      "image_url": "spicy.webp" 
+    },
+    {
+      "id": 2,
+      "title": "Classic Lemon Bars",
+      "time": "45 Min",
+      "rating": 4.5,
+      "category": "Desserts",
+      "image_url": "lemonbars.jpeg"
+    }
+  ]
+}

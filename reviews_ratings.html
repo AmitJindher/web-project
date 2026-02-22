@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews & Ratings - FlavorArchive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reviews_ratings.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">
+    <img src="https://img.icons8.com/ios-filled/50/FD7E14/restaurant.png" alt="logo">
+    <span>FlavorArchive</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="categories.html">Recipes</a>
+    <a href="my_recipes.html">My Recipes</a>
+    <a href="saved_recipes.html">Saved Recipes</a>
+    <a href="add_recipe.html">Add Recipe</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  
+  <div class="profile-dropdown">
+    <button class="profile-btn">Account</button>
+    <div class="dropdown-content">
+      <a href="profile_settings.html">Settings</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Sign Out</a>
+    </div>
+  </div>
+</nav>
+
+  <section class="reviews-content">
+    
+    <div class="header">
+      <h1>Reviews for: Simple Tomato Soup</h1>
+      <p class="summary">Overall Rating: ⭐⭐⭐⭐ (4.2 out of 5 stars from 15 reviews)</p>
+      <a href="recipe_detail.html" class="back-link">&larr; Back to Recipe</a>
+    </div>
+
+    <div class="review-form">
+      <h2>Submit Your Review</h2>
+      <form>
+        <div class="form-group">
+          <label for="rating">Your Rating:</label>
+          <select id="rating">
+            <option>5 - Excellent</option>
+            <option>4 - Great</option>
+            <option>3 - Good</option>
+            <option>2 - Fair</option>
+            <option>1 - Poor</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label for="comment">Your Comment:</label>
+          <textarea id="comment" rows="4" placeholder="Tell us what you thought about the recipe..."></textarea>
+        </div>
+        
+        <button type="submit" class="submit-btn">Post Review</button>
+      </form>
+    </div>
+
+    <div class="existing-reviews">
+      <h2>What Others Are Saying (15)</h2>
+      
+      <div class="review-item">
+        <p class="rating">⭐ ⭐ ⭐ ⭐ ⭐</p>
+        <p class="user-info">By: ChefMaster99 on 2024-09-15</p>
+        <p class="comment-text">"Followed exactly and it turned out perfect! The best soup I've made all year. Highly recommend adding a pinch of basil."</p>
+      </div>
+
+      <div class="review-item">
+        <p class="rating">⭐ ⭐ ⭐</p>
+        <p class="user-info">By: QuickCooker on 2024-09-10</p>
+        <p class="comment-text">"Good, but felt it needed a little more seasoning. Easy to make, though!"</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

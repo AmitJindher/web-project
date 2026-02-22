@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Recipes - FlavorArchive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="my_recipes.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+ <nav>
+  <a href="index.html" class="logo">
+    <img src="https://img.icons8.com/ios-filled/50/FD7E14/restaurant.png" alt="logo">
+    <span>FlavorArchive</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="categories.html">Recipes</a>
+    <a href="my_recipes.html">My Recipes</a>
+    <a href="saved_recipes.html">Saved Recipes</a>
+    <a href="add_recipe.html">Add Recipe</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  
+  <div class="profile-dropdown">
+    <button class="profile-btn">Account</button>
+    <div class="dropdown-content">
+      <a href="profile_settings.html">Settings</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Sign Out</a>
+    </div>
+  </div>
+</nav>
+
+  <section class="my-recipes-content">
+    <h1>My Uploaded Recipes</h1>
+    <p class="subtitle">Here are all the recipes you've created.</p>
+    
+    <a href="add_recipe.html" class="add-btn">Add a New Recipe</a>
+
+    <div class="recipe-list">
+      
+      <div class="recipe-item">
+        <img src="tamato_soup.webp" alt="Recipe Image">
+        <div class="info">
+          <h3>Simple Tomato Soup</h3>
+          <p>Prep Time: 10 min | Category: Lunch</p>
+          <a href="recipe_detail.html">View Recipe</a>
+        </div>
+        <div class="actions">
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn">Delete</button>
+        </div>
+      </div>
+
+      <div class="recipe-item">
+        <img src="chocochips.webp" alt="Recipe Image">
+        <div class="info">
+          <h3>Easy Chocolate Chip Cookies</h3>
+          <p>Prep Time: 20 min | Category: Desserts</p>
+          <a href="recipe_detail.html">View Recipe</a>
+        </div>
+        <div class="actions">
+          <button class="edit-btn">Edit</button>
+          <button class="delete-btn">Delete</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

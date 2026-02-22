@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saved Recipes - FlavorArchive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="saved_recipes.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+ 
+<nav>
+  <a href="index.html" class="logo">
+    <img src="https://img.icons8.com/ios-filled/50/FD7E14/restaurant.png" alt="logo">
+    <span>FlavorArchive</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="categories.html">Recipes</a>
+    <a href="my_recipes.html">My Recipes</a>
+    <a href="saved_recipes.html">Saved Recipes</a>
+    <a href="add_recipe.html">Add Recipe</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  
+  <div class="profile-dropdown">
+    <button class="profile-btn">Account</button>
+    <div class="dropdown-content">
+      <a href="profile_settings.html">Settings</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Sign Out</a>
+    </div>
+  </div>
+</nav>
+
+  <section class="saved-recipes-content">
+    <h1>My Saved Recipes</h1>
+    <p class="subtitle">Quickly access the recipes you've bookmarked to cook later.</p>
+    
+    <div class="recipe-list">
+      
+      <div class="recipe-item">
+        <img src="pizzadough.jpeg" alt="Recipe Image">
+        <div class="info">
+          <h3>Best Homemade Pizza Dough</h3>
+          <p>Time: 2 hours | Category: Dinner</p>
+          <a href="recipe_detail.html">View Recipe</a>
+        </div>
+        <div class="actions">
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+
+      <div class="recipe-item">
+        <img src="lemonbars.jpeg" alt="Recipe Image">
+        <div class="info">
+          <h3>Classic Lemon Bars</h3>
+          <p>Time: 45 min | Category: Desserts</p>
+          <a href="recipe_detail.html">View Recipe</a>
+        </div>
+        <div class="actions">
+          <button class="remove-btn">Remove</button>
+        </div>
+      </div>
+
+      <div class="no-recipes">
+        <p>Haven't saved any recipes yet. Start browsing the <a href="categories.html">Recipes</a> page!</p>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

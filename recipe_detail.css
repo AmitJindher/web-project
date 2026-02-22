@@ -1,0 +1,130 @@
+.recipe-detail {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.recipe-header {
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.recipe-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1b5e20;
+  margin-bottom: 0.3rem;
+}
+
+.recipe-header .author {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-image {
+  flex: 2;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.stats-box {
+  flex: 1;
+  background: #f0fff0;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+}
+
+.stats-box h2 {
+  font-size: 1.2rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.stat-item strong {
+  color: #333;
+}
+
+.reviews-link {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #ccc;
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.recipe-body {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.ingredients, .instructions {
+  flex: 1;
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.ingredients h2, .instructions h2, .comments h2 {
+  font-size: 1.5rem;
+  color: #1b5e20;
+  margin-bottom: 1rem;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ingredients li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #eee;
+  font-size: 1rem;
+  color: #555;
+}
+
+.instructions ol {
+  margin-left: 1.5rem;
+}
+
+.instructions li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 1rem;
+  color: #555;
+}

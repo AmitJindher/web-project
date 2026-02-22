@@ -1,0 +1,115 @@
+.reviews-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.summary {
+  font-size: 1.1rem;
+  color: #555;
+  font-weight: 600;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.review-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.review-form h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.submit-btn {
+  padding: 0.7rem 1.5rem;
+  background: #2e7d32;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #256528;
+}
+
+.existing-reviews h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.review-item {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-bottom: 1rem;
+}
+
+.review-item .rating {
+  color: gold;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.review-item .user-info {
+  font-size: 0.9rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.review-item .comment-text {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.5;
+}

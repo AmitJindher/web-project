@@ -1,0 +1,93 @@
+.saved-recipes-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.saved-recipes-content h1 {
+  font-size: 2rem;
+  color: #1b5e20;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recipe-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #f9f9f9;
+}
+
+.recipe-item img {
+  width: 100px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.recipe-item .info {
+  flex-grow: 1;
+}
+
+.recipe-item h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+
+.recipe-item p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-item a {
+  color: #2e7d32;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.remove-btn {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: #ffcdd2;
+  color: #d32f2f;
+}
+
+.no-recipes {
+    text-align: center;
+    padding: 2rem;
+    color: #999;
+    border: 1px dashed #ccc;
+    border-radius: 6px;
+    margin-top: 2rem;
+}
+
+.no-recipes a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+}

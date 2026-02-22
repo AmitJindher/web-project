@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Recipe - FlavorArchive</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="add_recipe.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+ <nav>
+  <a href="index.html" class="logo">
+    <img src="https://img.icons8.com/ios-filled/50/FD7E14/restaurant.png" alt="logo">
+    <span>FlavorArchive</span>
+  </a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="categories.html">Recipes</a>
+    <a href="my_recipes.html">My Recipes</a>
+    <a href="saved_recipes.html">Saved Recipes</a>
+    <a href="add_recipe.html">Add Recipe</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  
+  <div class="profile-dropdown">
+    <button class="profile-btn">Account</button>
+    <div class="dropdown-content">
+      <a href="profile_settings.html">Settings</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Sign Out</a>
+    </div>
+  </div>
+</nav>
+
+  <section class="add-recipe">
+    <h1>Add New Recipe</h1>
+    <p class="subtitle">Share your culinary creation with our community</p>
+
+    <form id="addRecipeForm">
+      <h2>Recipe Detail</h2>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="title">Recipe Title</label>
+          <input type="text" id="title" placeholder="My delicious pasta">
+        </div>
+
+        <div class="form-group">
+          <label for="category">Category</label>
+          <select id="category">
+            <option>Enter your recipe category</option>
+            <option>Breakfast</option>
+            <option>Lunch</option>
+            <option>Dinner</option>
+            <option>Snacks</option>
+            <option>Desserts</option>
+            <option>Drinks</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients" rows="4" placeholder="Describe ingredients here..."></textarea>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="prep-time">Preparation Time</label>
+          <input type="text" id="prep-time" placeholder="15 minutes">
+        </div>
+
+        <div class="form-group">
+          <label for="cook-time">Cooking Time</label>
+          <input type="text" id="cook-time" placeholder="10 minutes">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="instructions">Instruction</label>
+        <textarea id="instructions" rows="5" placeholder="step 1: instructions..."></textarea>
+      </div>
+
+      <div class="form-actions">
+        <button type="button" class="cancel">Cancel</button>
+        <button type="submit" class="save">Save</button>
+      </div>
+    </form>
+  </section>
+
+</body>
+</html>
